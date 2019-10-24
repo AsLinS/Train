@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 80px;
+    background-color: #663366;
+}
+.header .nav{
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+}
+.header .nav .header_nav_left{
+    float: left;
+    height: 100%;
+    width: 175px;
+}
+.header .nav .header_nav_left h1{
+    line-height: 80px;
+    color: #CCCC99;
+}
+.header .nav .header_nav_left h1 img{
+    width: 20%;
+    height: 100%;
+}
+.header .nav .header_nav_right{
+    float: right;
+    text-align: center;
+    height: 100%;
+    width: 300
+}
+.header .nav .header_nav_right .header_nav_right_list{
+    list-style: none;
+    height: 90px;
+    width: 100%;
+}
+.header .nav .header_nav_right_list li{
+    float: left;
+    line-height: 80px;
+    font-size: 18px;
+    width: 100px;
+}
+.header .nav .header_nav_right_list li a{
+    text-decoration: none;
+    color:#CCCC99;
+}
+.content{
+    width: 1400px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.content .books{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+.content .books h1{
+    text-align: center;
+}
+.content .books hr{
+    width: 10%;
+    margin: 10px auto;
+}
+.content .books .mybook{
+    width: 280px;
+    height: 400px;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+}
+.content .books .mybook img{
+    width: auto;
+    height: auto;
+    max-width: 75%;
+    max-height: 75%;
+    margin-top: 20px;
+}
+.content .books .mybook p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.content .games{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+.content .games h1{
+    text-align: center;
+}
+.content .games hr{
+    width: 10%;
+    margin: 10px auto;
+}
+.content .games .mygame{
+    width: 280px;
+    height: 400px;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+}
+.content .games .mygame img{
+    width: auto;
+    height: auto;
+    max-width: 75%;
+    max-height: 75%;
+    margin-top: 20px;
+}
+.content .games .mygame p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.footer{
+    height: 200px;
+    background-color: #663366;
+    position: relative;
+}
+.footer .end {
+    width: 1200px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -600px;
+    transform: translateY(-50%);
+}
+.footer .end .ant{
+    float: left;
+    width: 900px;
+    margin-left: 50px;
+    margin-top:50px;
+    font-size: 18px;
+    color: #CCCC99;
+}
+.footer .end .ewn img{
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin:25px 25px 25px 25px;
+}
+.footer .footer_bot{
+    position: absolute;
+    height: 60px;
+    width: 1200px;
+    bottom: 5%;
+    left:50%;
+    margin-left: -600px;
+}
+.footer p{
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+}
