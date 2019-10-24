@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    height: 80px;
+    background-color:#cf1322;
+}
+.head .nav{
+    margin:0 auto;
+    width: 80%;
+    height: 100%;
+}
+.head .nav .nav_left{
+    float:left;
+    height: 100%;
+    width:175px;
+}
+.head .nav .nav_left h1{
+    line-height: 80px;
+}
+.head .nav .nav_left h1 img{
+    width: 20%;
+    height: 100%;
+}
+.head .nav .nav_right{
+    float:right;
+    height: 100%;
+    width:300px;
+}
+.head .nav .nav_right .list{
+    list-style: none;
+    height: 90px;
+    width: 100%;
+}
+.head .nav .nav_right .list li{
+    float: left;
+    line-height: 80px;
+    font-size: 18px;
+    width: 100px;
+}
+.head .nav .nav_right .list li a{
+    text-decoration: none;
+    color: black;
+}
+.content{
+    height: 1000px;
+    width: 1400px;
+    margin:0 auto;
+}
+.content .movie{
+   width: 1200px;
+   height: 500px;
+   margin:0 auto;
+}
+.content .movie h1{
+   text-align: center;
+}
+.content .movie  hr{
+   width: 10%;
+   margin:10px auto;
+}
+.content .movie .mymovie{
+    width: 280px;
+    height: 400px;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+}
+.content .movie .mymovie img{
+    width: 90%;
+    height: 80%;
+    margin-top: 20px;
+}
+.content .movie .mymovie p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.content .book{
+    width: 1200px;
+    height: 500px;
+    margin:0 auto;
+}
+ .content .book h1{
+    text-align: center;
+ }
+ .content .book  hr{
+    width: 10%;
+    margin:10px auto;
+ }
+ .content .book .mybook{
+     width: 280px;
+     height: 400px;
+     float: left;
+     margin-left: 20px;
+     text-align: center;
+ }
+ .content .book .mybook img{
+     width: 90%;
+     height: 80%;
+     margin-top: 20px;
+ }
+ .content .book .mybook p{
+     font-size: 20px;
+     margin-top: 10px;
+ }
+.footer{
+    height: 280px;
+    background-color: #cf1322;
+    position: relative;
+}
+.footer .ewm {
+    width: 1200px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -600px;
+    transform: translateY(-50%);
+}
+.footer .ewm .ant{
+    float: left;
+    width: 900px;
+    margin-left: 50px;
+    margin-top:50px;
+    font-size: 18px;
+    color: white;
+}
+.footer .ewm .ewn img{
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin:25px 25px 25px 25px;
+}
+.footer .footer_bot{
+    position: absolute;
+    height: 60px;
+    width: 1200px;
+    bottom: 5%;
+    left:50%;
+    margin-left: -600px;
+}
+.footer p{
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+}
+
