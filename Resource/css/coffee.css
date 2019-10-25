@@ -50,8 +50,9 @@
 }
 
 .content {
-    height: 3800px;
     background-color: #CCCCCC;
+    display: block;
+    height: 4000px;
 }
 
 .content .left {
@@ -62,8 +63,10 @@
 }
 
 .content .left .coffee_list {
-    width: 20%;
-    position: fixed;
+    min-height: 350px;
+    position: sticky;
+    top:0;
+
 }
 .content .left .coffee_list li {
     list-style: none;
@@ -87,7 +90,6 @@
     background-color:#663366;
 }
 .content .right {
-    height: 100%;
     width: 80%;
     float: left;
 }
