@@ -65,13 +65,11 @@
     width: 20%;
     position: fixed;
 }
-
 .content .left .coffee_list li {
     list-style: none;
     font-size: 20px;
     line-height: 50px;
 }
-
 .content .left .coffee_list li a {
     width:100%;
     display: block;
@@ -80,6 +78,7 @@
     text-decoration: none;
     border-bottom: 1px solid #000;
     text-indent: 2em;
+    height: 60px;
 }
 .content .left .coffee_list li a:hover{
     background-color: #CCCCCC;
@@ -104,8 +103,8 @@
 }
 
 .content .right .c1 {
-    width: 1000px;
-    height: 500px;
+    width: auto;
+    min-height: 100px;
     margin-top: 20px;
 }
 
@@ -133,20 +132,20 @@
     font-size: 32px;
 }
 .content .right .c2 {
-    width: 1000px;
-    height: 500px;
+    width: auto;
+    min-height: 100px;
     margin-top: 20px;
 }
 
 .content .right .c3 {
-    width: 1000px;
-    height: 500px;
+    width: auto;
+    min-height: 100px;
     margin-top: 20px;
 }
 
 .content .right .c4 {
-    width: 1000px;
-    height: 500px;
+    width: auto;
+    min-height: 100px;
     margin-top: 20px;
 }
 .content .price{
