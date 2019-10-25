@@ -16,7 +16,9 @@
     margin-right: -0.25em;
 }
 .header .top {
-    width: 350px;
+    /* height: auto; */
+    /* min-height: 20px; */
+    width: 500px;
     height: 66px;
     background-color: #663366;
     display: inline-block;
@@ -25,14 +27,26 @@
 
 .header .top img {
     float: left;
-    width: 50px;
-    height: 50px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    transform: translateY(-50%);
+    top:50%;
+    margin-left: 19%;
 }
 
 .header .top p {
+    max-width: 100%;
+    max-height: 100%;
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     float: left;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
 }
 
 .content {
@@ -70,14 +84,17 @@
 .content .left .coffee_list li a:hover{
     background-color: #CCCCCC;
 }
+.content .left .coffee_list li a:active{
+    background-color:#663366;
+}
 .content .right {
     height: 100%;
     width: 80%;
     float: left;
 }
 .content .right .right_top{
-    width:800px;
-    height: 600px;
+    width:400px;
+    height: 300px;
     margin:0 auto;
     margin-top:10px;
 }
