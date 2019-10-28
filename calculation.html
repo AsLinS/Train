@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculation</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        function minus(){
+            var num=document.getElementById("counter");
+            num.innerHTML--;
+        }
+        function add(){
+            var num=document.getElementById("counter");
+            num.innerHTML++;
+        }
+    </script>
+</head>
+<body>
+    <div class="content">
+        <button id="minu" onclick="minus()">减少</button>
+        <span id="counter">0</span>
+        <button id="add" onclick="add()">增加</button>
+    </div>
+</body>
+</html>
