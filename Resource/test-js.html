@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://www.runoob.com/images/pic_bulboff.gif" alt="" onclick="changeImg();" id="myImg">
+    <script>
+        function changeImg(){
+            let element=document.getElementById("myImg");
+            if(element.src.match("bulbon")){
+                element.src="https://www.runoob.com/images/pic_bulboff.gif"
+            }else{
+                element.src="https://www.runoob.com/images/pic_bulbon.gif"
+            }
+        }
+    </script>
+</body>
+</html>

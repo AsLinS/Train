@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 900px;
+}
+.content{
+    height: 80%;
+}
+.bottom{
+    height: 20%;
+}
+.text{
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.buttons{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.buttons button{
+    width:100px
+}
+.buttons li{
+    list-style-type: none;
+    padding-bottom: 10px;;
+}
