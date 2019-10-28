@@ -73,7 +73,7 @@
     font-size: 20px;
     line-height: 50px;
 }
-.content .left .coffee_list li a {
+.content .left .coffee_list  li a {
     width:100%;
     display: block;
     font-size: 20px;
@@ -88,6 +88,9 @@
 }
 .content .left .coffee_list li a:active{
     background-color:#663366;
+}
+.content .left .coffee_list li:last-child{
+    border-bottom: none;
 }
 .content .right {
     width: 80%;

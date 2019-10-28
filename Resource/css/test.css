@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.list ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+}
+.list a{
+    width: 60px;
+    color: #000000;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+.list a:hover{
+    background-color: #555555;
+    color:white;
+}
+.list a:active,a:hover{
+    background-color: #4caf50;
+}
+.list li{
+    border-right:1px solid #bbbbbb;
+}
+.list li:last-child{
+    border-right: none;
+}

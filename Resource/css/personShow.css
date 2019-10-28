@@ -69,6 +69,10 @@
     margin-left: 20px;
     text-align: center;
 }
+.content .books .mybook :hover{
+    background-color: #CCCC99;
+    color: black;
+}
 .content .books .mybook img{
     width: auto;
     height: auto;
