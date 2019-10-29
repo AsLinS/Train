@@ -37,13 +37,10 @@ function addInterval(jqueryDom) {
 
 function spaw(){
     var dom=createBullet($("#input").val());
-    
-    console.log("2333");
     addInterval(dom);
 }
 
 
 function del(){
-    console.log("123");
     $(".bullet").remove();
 }

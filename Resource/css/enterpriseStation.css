@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-color: paleturquoise;
+    height: 50px;
+}
+.header .header-left{
+    vertical-align: middle;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    width: 30%;
+    min-width: 350px;
+}
+.header .header-left .header-left-img{
+    float: left;
+    width: auto;
+    height: auto;
+    max-width: 75%;
+    max-height: 75%;
+    position: relative;
+    transform: translateY(-50%);
+    top:50%;
+    margin-left: 10%;
+}
+.header .header-left h1{
+    font-size: 25px;
+    float: left;
+}
+.header-right{
+    vertical-align: middle;
+    height: 50px;
+    float: right;
+    line-height: 50px;
+    width: 30%;
+    min-width: 350px;
+    margin-right: 3%;
+}
+.header-right .header-right-list ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.header-right .header-right-list li{
+    float: right;
+    margin-right: 10px;
+}
+.header-right .header-right-list a{
+    text-decoration:none;
+}
+.content{
+    height: 2500px;
+    background-color: palevioletred;
+}
+.content .content-rockTop{
+    background-color: papayawhip;
+}
+.content-rockTop img{
+    width: 1200px;
+    height: auto;
+}
+.content .content-top{
+    height:400px;
+    background-color: peru;
+}
+.content .content-top .content-top-title{
+    padding-top: 10px;
+    text-align: center;
+}
