@@ -6,7 +6,11 @@ body{
     height: 900px;
 }
 .content{
+    margin: 15px;
     height: 80%;
+    border:1px solid black;
+    position: relative;
+    overflow: hidden;
 }
 .bottom{
     height: 20%;

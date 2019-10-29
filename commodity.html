@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Commodity list add and remove</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="Resource/js/commodity.js"></script>
+    <link rel="stylesheet" href="Resource/css/commodity.css">
+</head>
+<body>
+    <div class="content">
+        <h2>货架增删</h2>
+        <div id="message"></div>
+        <ul id="goods">
+        </ul>
+        <button id="delAll" onclick="delAll()">删除所有商品</button>
+        <span>名称：</span>
+        <input type="text" id="name">
+        <button id="add" onclick="add()">添加</button>
+    </div>
+</body>
+</html>

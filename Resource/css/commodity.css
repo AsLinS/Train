@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#delAll {
+    display: block;
+    visibility: hidden;
+}
+
+.danger {
+    color: red;
+}
+
+
+.content li {
+    list-style: none;
+}

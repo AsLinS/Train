@@ -14,7 +14,8 @@ function createBullet(strBarrage){
         "color":fontColor,
         "font-size":fontSize,
         "left":left,
-        "top":top
+        "top":top,
+        "white-space":'nowrap'
     });
     $(".content").append(dom);
     return dom;
@@ -35,9 +36,14 @@ function addInterval(jqueryDom) {
 }
 
 function spaw(){
-    var dom=createBullet($("input").val());
+    var dom=createBullet($("#input").val());
+    
+    console.log("2333");
     addInterval(dom);
 }
 
-function clear(){
+
+function del(){
+    console.log("123");
+    $(".bullet").remove();
 }
