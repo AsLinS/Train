@@ -67,10 +67,80 @@ body{
     height: auto;
 }
 .content .content-top{
-    height:400px;
+    min-height:300px;   
     background-color: peru;
 }
 .content .content-top .content-top-title{
     padding-top: 10px;
     text-align: center;
+}
+.content .content-top .content-top-title ul{
+    list-style-type: none;
+}
+.content .content-top .content-top-title a{
+    text-decoration: none;
+}
+.content .content-top .content-top-title li{
+    float: right;
+    width: 25%;
+}
+.content-main{
+
+}
+.content-main #content-main-top{
+    text-align: center;
+    padding-top:10px ;
+}
+.content-main .content-main-left{
+    float: left;
+    width: 50%;
+    height: 1500px;
+    background-color: blue;
+    margin-top: 10px;;
+}
+.content-main .content-main-right{
+    float: right;
+    width: 50%;
+    height: 1500px;
+    margin-top: 10px;
+    background-color:#534131;
+}
+.content-main .content-main-box{
+    width: 600px;
+    height: 600px;
+    margin-bottom: 10px;
+}
+.content-main .content-main-img img{
+    max-width: 600px;
+    height: 600px;
+}
+.contente-main-text{
+    position: relative;
+}
+.contente-main-text .contente-main-text-top p{
+    padding:0 50px;
+    padding-top: 5px;
+}
+.contente-main-text h1{
+    text-align: center;
+}
+.contente-main-text-top{
+    position: absolute;
+    top: 0;
+}
+.contente-main-text-buttom{
+    padding-top: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.contente-main-text-buttom p{
+    padding: 0 50px;
+    padding-top: 5px;
+}
+.contente-main-text-buttom hr{
+    color: white;
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom:5px;
 }
