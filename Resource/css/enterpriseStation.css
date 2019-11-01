@@ -238,7 +238,7 @@ body{
     width: 25%;
 }
 .content-main{
-    height: 1800px;
+    height: 1900px;
 }
 .content-main #content-main-top{
     text-align: center;
@@ -259,6 +259,7 @@ body{
 .content-main .content-main-box{
     width: 600px;
     height: 600px;
+    margin-bottom: 20px;;
 }
 .content-main .content-main-img img{
     max-width: 600px;
@@ -292,4 +293,15 @@ body{
     width: 250px;
     margin: 0 auto;
     margin-bottom:5px;
+}
+.content-buttom-news{
+    width: 1200px;
+    height: 500px;
+    text-align: center;
+    margin-top: 10px;
+}
+.content-buttom-news-box{
+    height: 1200px;
+    height: 500px;
+    padding: 5px,50px;
 }
