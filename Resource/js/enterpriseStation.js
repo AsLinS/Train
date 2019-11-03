@@ -89,7 +89,7 @@
 //     }
 //     liList[count].style='display:block';
 //     olList[count].className='active';
-    
+
 // }
 // timer=setInterval(rock,1000);
 // // $('#right').click(function(){
@@ -115,3 +115,14 @@
 //     console.log("233");
 //     timer=setInterval(rock,1000);
 // }
+$(document).ready(function () {
+    axios.get('https://5dbe48a405a6f30014bcb0bf.mockapi.io/Train')
+        .then(function (res) {
+            for (var i = 0; i < res.data.length; i++) {
+                console.log(res.data[i]);
+                $('.newslist').append("<li class='new'><a href='#'>" + "<img src='" + res.data[i].url + "'><span>" + res.data[i].title + "</span><hr><p>" + res.data[i].ant + "</p></a></li>");
+            }
+        }).catch(function (res) {
+
+        })
+});
