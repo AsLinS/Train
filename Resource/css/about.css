@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*头部*/
+.header{
+    background-color: paleturquoise;
+    height: 50px;
+}
+.header .header-left{
+    vertical-align: middle;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    width: 30%;
+    min-width: 350px;
+}
+.header .header-left .header-left-img{
+    float: left;
+    width: auto;
+    height: auto;
+    max-width: 75%;
+    max-height: 75%;
+    position: relative;
+    transform: translateY(-50%);
+    top:50%;
+    margin-left: 10%;
+}
+.header .header-left h1{
+    font-size: 25px;
+    float: left;
+}
+.header-right{
+    vertical-align: middle;
+    height: 50px;
+    float: right;
+    line-height: 50px;
+    width: 30%;
+    min-width: 350px;
+    margin-right: 3%;
+}
+.header-right .header-right-list ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.header-right .header-right-list li{
+    float: right;
+    margin-right: 10px;
+}
+.header-right .header-right-list a{
+    text-decoration:none;
+}
+/*底部*/
+
+.footer {
+    height: 350px;
+    background-color: #bfbfbf;
+}
+
+.footer .fnav {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .footer_top {
+    width: 1000px;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.footer .footer_top .ft {
+    width: 220px;
+    height: 250px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer .footer_top .ft img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    opacity: 0.5;
+}
+
+.footer .footer_top .ft p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #8c8c8c;
+}
+
+.footer .footer_top .ft .er {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+}
+
+.footer .footer_bottom {
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+    color: #8c8c8c;
+}
+
+.footer .footer_bottom hr {
+    border-color: #8c8c8c;
+}
+
+.clean {
+    clear: both;
+}
+
+h1 {
+    text-align: center;
+}
+
+#content {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+#content #map {
+    margin-top: 15px;
+    width: 550px;
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+}
+
+#content .jies {
+    width: 550px;
+    height: 200px;
+    float: right;
+    padding: 15px 15px;
+}
+
+#content .jies img {
+    width: 20px;
+    height: 20px;
+}
+
+#content .jies span {
+    line-height: 40px
+}
